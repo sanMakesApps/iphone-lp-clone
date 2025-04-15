@@ -1,12 +1,50 @@
-# React + Vite
+# Apple's Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity clone of Apple's iPhone 15 Pro landing page, built with **React, Three.js, and GSAP** to deliver smooth animations, interactive 3D models, and a pixel-perfect responsive design.
 
-Currently, two official plugins are available:
+## Project Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Desktop View | Mobile View |
+|--------------|-------------|
+| <img src="assets/apple-lg.gif" style="height:300px;width:auto;object-fit:contain;"> | <img src="assets/apple-sm.gif" style="height:300px;width:auto;object-fit:contain;"> |
 
-## Expanding the ESLint configuration
+| 3D Model Interaction | Video Carousel |
+|----------------------|----------------|
+| <img src="assets/apple-dyn-3d.gif" style="height:300px;width:auto;object-fit:contain;"> | <img src="assets/apple-carousel.gif" style="height:300px;width:auto;object-fit:contain;"> |
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+- **GSAP Animations** – Smooth scroll-triggered transitions for a premium feel.
+- **Video Carousel** – Dynamic GSAP-powered video showcase.
+- **3D iPhone Model** – Interactive, rotatable iPhone 15 Pro with color/size options (React Three Fiber + Drei).
+- **Fully Responsive** – Optimized for mobile, tablet, and desktop.
+
+## Tech Stack
+
+- **Frontend**: React (Vite)
+- **3D Rendering**: Three.js, React Three Fiber, React Three Drei
+- **Animations**: GSAP (Greensock)
+- **Styling**: Tailwind CSS
+
+
+## Quick Start
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/sanMakesApps/iphone-lp-clone.git
+   cd iphone-lp-clone
+
+2. **Install dependencies**
+   ```sh
+   npm install
+
+3. **Run the dev server**
+   ```sh
+   npm run dev
+
+## Learning Goals
+
+- **Three.js/React Three Fiber** - 3D rendering pipeline, model controls.
+- **GSAP** - Timeline-based animations, scroll triggers.
+- **Tailwind** - Utility-first responsive design.
