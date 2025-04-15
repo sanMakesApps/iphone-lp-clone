@@ -1,5 +1,11 @@
+import Hero from "./components/Hero";
+
 function App() {
-  return <>APPLE IPHONE LANDING PAGE CLONE</>;
+  return (
+    <main className="bg-black">
+      <Hero />
+    </main>
+  );
 }
 
 export default App;
